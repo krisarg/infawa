@@ -1,0 +1,119 @@
+body{
+    background-image: url(../images/piano_mar_1.jpg);
+    background-size:cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;      
+}
+h1{
+    font-size: 50px;
+    color:white;
+    font-family: 'Ephesis', cursive; 
+    background-color: blac;
+    width: 50%;
+    text-align: center;
+    margin-left: 20%;
+    letter-spacing: 0.07em;
+    text-shadow: 2px 2px gray;
+}
+h2 {
+    color:white;
+    font-size: 60px;
+    text-align: center;
+    opacity: 1!important;
+    text-shadow: 2px 2px black; 
+}
+.header{
+    width: 98%
+    position:fixed;
+    background-color: brwn; 
+}
+.titulo{    
+     background-color:rgba(164, 195, 241, 0.4);
+     position: -webkit-sticky; /* Safari */ 
+     border: 1px solid cornflowerblue;    
+}
+.container { 
+    position: sticky;
+    top: 10px;     
+}
+.menu{
+    margin-left: 20%;
+    width:55%;  
+     background-color:cornflowerblue;
+}
+ul {
+  list-style-type: none; 
+  overflow: hidden;
+  background-color:cornflowerblue;
+    height: 40px
+}
+li {
+     float: left; 
+ }
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform:uppercase;
+}
+
+a:hover {
+  background-color: white;
+  color: black;
+}
+.banner{
+    margin-left: 25%;
+    width: 800px;
+    height: 600px;
+    background-image: url(../images/chica.png);
+    background-size:cover;
+    background-repeat: no-repeat;  
+    box-shadow: 4px 2px gray;        
+}
+.text{
+   float: left;
+   margin-left: 40px;        
+}
+.met{
+    margin-left: 25%;
+    margin-top: 100px;
+    padding-left: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 800px;      
+   font-size: 26px;
+   background-color:rgba(164, 195, 241, 0.5);
+    
+}
+footer{
+    background-image: url(../images/footer_bg.jpg);   
+    height: 300px;    
+}
+.box{
+    width: 40%;
+    padding-top: 20px;
+    
+}
+.text_t{
+    font-size: 20px;
+    color:white;
+    margin-left: 40px;
+}
+.f_tex{
+    color:aliceblue;
+    margin-left: 40px
+}
+.box2{
+    display: blok;
+    float: right;
+    position: relative;
+}
+.wat{   
+    width: 55px;
+    color: whitesmoke;
+    margin-right: 50px;   
+}
+
+
